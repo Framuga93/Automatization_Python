@@ -1,6 +1,3 @@
-kolichestvo_ryadov = int(input("Введите кол-во рядов: "))
-
-
 def elka_print(ryad):
     indent = ryad - 1
     zvezda = 1
@@ -10,4 +7,4 @@ def elka_print(ryad):
         zvezda += 2
 
 
-elka_print(kolichestvo_ryadov)
+elka_print(int(input("Введите кол-во рядов: ")))

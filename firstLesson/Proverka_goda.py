@@ -4,7 +4,6 @@
 # все остальные годы — невисокосные.
 
 
-year = int(input("Введите год: "))
 VISOKOSNII = "Високосный"
 NEVISOKOSNII = "Невисокосный"
 
@@ -20,4 +19,4 @@ def verify_year(y):
         return NEVISOKOSNII
 
 
-print(verify_year(year))
+print(verify_year(int(input("Введите год: "))))
